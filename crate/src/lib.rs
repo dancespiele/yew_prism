@@ -1,12 +1,11 @@
-#![recursion_limit="256"]
+#![recursion_limit = "256"]
 
 #[macro_use]
 extern crate cfg_if;
 
 extern crate wasm_bindgen;
-extern crate web_sys;
 extern crate yew;
-extern crate yew_router;
+extern crate yew_prism;
 use wasm_bindgen::prelude::*;
 
 mod app;
@@ -43,4 +42,3 @@ pub fn run() {
 
     yew::start_app::<App>();
 }
-
