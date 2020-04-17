@@ -4,9 +4,8 @@ categories = ["wasm"]
 description = "My awesome Yew with Yew-Router and Parcel application!"
 license = "Apache-2.0/MIT"
 name = "yew-parcel"
-readme = "./README.md"
-repository = "https://github.com/spielrs/yew-parcel-template.git"
-version = "0.13.0"
+repository = "https://github.com/spielrs/yew_prism.git"
+version = "0.1.0"
 
 [lib]
 crate-type = ["cdylib"]

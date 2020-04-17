@@ -3,8 +3,8 @@
   "repository": {
     "url": "https://github.com/spielrs/yew-parcel-template"
   },
-  "name": "create-yew-parcel",
-  "version": "0.14.1",
+  "name": "yew-prism",
+  "version": "0.1.0",
   "license": "Apache-2.0/MIT",
   "scripts": {
     "start": "parcel index.html",
