@@ -3,13 +3,15 @@ use web_sys::HtmlElement;
 use yew::prelude::*;
 
 pub struct Prism {
-    code_ref: NodeRef,
-    props: Props,
+    pub code_ref: NodeRef,
+    pub props: Props,
 }
 
 #[derive(Clone, Properties)]
 pub struct Props {
+    /// Code that you want to highlight
     pub code: String,
+    /// Language of that code (rust, javascript, etc...)
     pub language: String,
 }
 
