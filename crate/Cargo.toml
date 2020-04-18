@@ -1,7 +1,7 @@
 [package]
-authors = ["The RustWasm Developers"]
+authors = ["Francisco Jesus Navarro Cortes"]
 categories = ["wasm"]
-description = "My awesome Yew with Yew-Router and Parcel application!"
+description = "Yew Prism example"
 license = "Apache-2.0/MIT"
 name = "yew-parcel"
 repository = "https://github.com/spielrs/yew_prism.git"

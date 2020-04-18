@@ -1,7 +1,10 @@
 [package]
 name = "yew_prism"
+authors = ["Francisco Jesus Navarro Cortes"]
+categories = ["wasm"]
+description = "Yew Prism is a highlighter code component based in Prism for yew"
+license= "MIT"
 version = "0.1.0"
-authors = ["spieljs <spieljs@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
