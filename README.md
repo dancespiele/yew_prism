@@ -20,8 +20,8 @@ import module from '../crate/Cargo.toml';
 module.run();
 ```
 
-    **Note:** You can use [yew-parcel-template](https://github.com/spielrs/yew-parcel-template) or another template described
-    [here](https://yew.rs/docs/getting-started/starter-templates) to create a yew project
+**Note:** You can use [yew-parcel-template](https://github.com/spielrs/yew-parcel-template) or another template described
+[here](https://yew.rs/docs/getting-started/starter-templates) to create a yew project
 
 3. Add yew_prism in your cargo.toml
 
@@ -31,8 +31,8 @@ yew = { version = "0.14", features = ["toml", "yaml", "msgpack", "cbor", "web_sy
 yew_prism="0.1"
 ```
 
-    **Note:** Currently yew_prism only support web_sys feature. Maybe [stdweb](https://github.com/koute/stdweb) feature is included
-    in the future depending if the library continues to be supported.
+**Note**: Currently yew_prism only support web_sys feature. Maybe [stdweb](https://github.com/koute/stdweb) feature is included
+in the future depending if the library continues to be supported.
 
 4. Now you are ready to use the component &#128640;
 
