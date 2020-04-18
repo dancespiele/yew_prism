@@ -69,4 +69,4 @@ impl Component for App {
 
 ### License
 
-Yew Prism is MIT licensed. See [license](LICENSE-MIT)
+Yew Prism is MIT licensed. See [license](LICENSE)
