@@ -2,7 +2,7 @@
 authors = ["Francisco Jesus Navarro Cortes"]
 categories = ["wasm"]
 description = "Yew Prism example"
-license = "Apache-2.0/MIT"
+license = "MIT"
 name = "yew-parcel"
 repository = "https://github.com/spielrs/yew_prism.git"
 version = "0.2.0"
