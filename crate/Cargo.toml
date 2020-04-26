@@ -5,7 +5,7 @@ description = "Yew Prism example"
 license = "Apache-2.0/MIT"
 name = "yew-parcel"
 repository = "https://github.com/spielrs/yew_prism.git"
-version = "0.1.0"
+version = "0.2.0"
 
 [lib]
 crate-type = ["cdylib"]
@@ -19,6 +19,6 @@ serde = "1.0"
 serde_derive = "1.0"
 dotenv = "0.15"
 failure = "0.1"
-yew = { version = "0.14", features = ["toml", "yaml", "msgpack", "cbor", "web_sys"]}
+yew = { version = "0.15", features = ["toml", "yaml", "msgpack", "cbor", "web_sys"]}
 web-sys = "0.3"
 yew_prism= {path="./yew_prism"}

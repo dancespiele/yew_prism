@@ -7,7 +7,7 @@ pub struct Prism {
     pub props: Props,
 }
 
-#[derive(Clone, Properties)]
+#[derive(Clone, Properties, PartialEq)]
 pub struct Props {
     /// Code that you want to highlight
     pub code: String,
@@ -26,7 +26,20 @@ impl Component for Prism {
         }
     }
 
-    fn mounted(&mut self) -> ShouldRender {
+    fn update(&mut self, _msg: Self::Message) -> ShouldRender {
+        false
+    }
+
+    fn change(&mut self, props: Self::Properties) -> ShouldRender {
+        if self.props != props {
+            self.props = props;
+            true
+        } else {
+            false
+        }
+    }
+
+    fn rendered(&mut self, _first_render: bool) {
         let template = highlight(
             self.props.code.clone(),
             lang.get(self.props.language.clone()),
@@ -35,12 +48,6 @@ impl Component for Prism {
         if let Some(code) = self.code_ref.cast::<HtmlElement>() {
             code.set_inner_html(&template);
         }
-
-        true
-    }
-
-    fn update(&mut self, _msg: Self::Message) -> ShouldRender {
-        false
     }
 
     fn view(&self) -> Html {
