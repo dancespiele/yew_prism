@@ -71,6 +71,12 @@ impl Component for App {
 
 ```
 
-### License
+## Run documentation page
+
+1. `git clone https://github.com/spielrs/yew_prism.git`
+2. `cd yew_prism`
+3. `npm start`
+
+## License
 
 Yew Prism is MIT licensed. See [license](LICENSE)
