@@ -25,7 +25,7 @@
 //!
 //! ```toml
 //! [dependencies]
-//! yew = { version = "0.14", features = ["toml", "yaml", "msgpack", "cbor", "web_sys"]}
+//! yew = { version = "0.15", features = ["toml", "yaml", "msgpack", "cbor", "web_sys"]}
 //! yew_prism = "0.1"
 //! ```
 //!
