@@ -5,7 +5,7 @@ description = "Yew Prism example"
 license = "MIT"
 name = "yew-parcel"
 repository = "https://github.com/spielrs/yew_prism.git"
-version = "0.2.1"
+version = "0.3"
 
 [lib]
 crate-type = ["cdylib"]

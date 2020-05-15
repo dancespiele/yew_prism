@@ -27,12 +27,9 @@ module.run();
 
 ```toml
 [dependencies]
-yew = { version = "0.15", features = ["toml", "yaml", "msgpack", "cbor", "web_sys"]}
-yew_prism="0.1"
+yew = { version = "0.16", features = ["toml", "yaml", "msgpack", "cbor", "web_sys"]}
+yew_prism="0.3"
 ```
-
-**Note**: Currently yew_prism only support web_sys feature. Maybe [stdweb](https://github.com/koute/stdweb) feature is included
-in the future depending if the library continues to be supported.
 
 4. Now you are ready to use the component &#128640;
 
