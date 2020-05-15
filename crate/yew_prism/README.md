@@ -13,6 +13,7 @@ in your javascript/typescript main file yew project
 
 ```typescript
 import 'prismjs/themes/prism.css';
+import 'prismjs';
 import 'prismjs/components/prism-markup';
 import 'prismjs/components/prism-rust';
 import module from '../crate/Cargo.toml';
