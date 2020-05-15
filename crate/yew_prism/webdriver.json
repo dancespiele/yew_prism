@@ -1,7 +1,0 @@
-{
-  "browserName": "firefox",
-  "browserVersion": "76",
-  "moz:firefoxOptions": {
-    "log": {"level": "trace"}
-  }
-}
