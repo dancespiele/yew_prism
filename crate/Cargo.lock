@@ -657,7 +657,7 @@ dependencies = [
 
 [[package]]
 name = "yew-parcel"
-version = "0.2.1"
+version = "0.3.0"
 dependencies = [
  "cfg-if 0.1.10 (registry+https://github.com/rust-lang/crates.io-index)",
  "console_error_panic_hook 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -669,12 +669,12 @@ dependencies = [
  "web-sys 0.3.36 (registry+https://github.com/rust-lang/crates.io-index)",
  "wee_alloc 0.4.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "yew 0.16.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "yew_prism 0.2.1",
+ "yew_prism 0.3.0",
 ]
 
 [[package]]
 name = "yew_prism"
-version = "0.2.1"
+version = "0.3.0"
 dependencies = [
  "wasm-bindgen 0.2.60 (registry+https://github.com/rust-lang/crates.io-index)",
  "web-sys 0.3.36 (registry+https://github.com/rust-lang/crates.io-index)",
