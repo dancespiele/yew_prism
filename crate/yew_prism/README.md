@@ -28,8 +28,8 @@ module.run();
 
 ```toml
 [dependencies]
-yew = { version = "0.16", features = ["toml", "yaml", "msgpack", "cbor", "web_sys"]}
-yew_prism="0.3"
+yew = { version = "0.17", features = ["web_sys"]}
+yew_prism="0.4"
 ```
 
 4. Now you are ready to use the component &#128640;

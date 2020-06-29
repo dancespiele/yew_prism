@@ -610,7 +610,7 @@ dependencies = [
 
 [[package]]
 name = "yew"
-version = "0.16.2"
+version = "0.17.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "anyhow 1.0.20 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -639,12 +639,12 @@ dependencies = [
  "wasm-bindgen 0.2.60 (registry+https://github.com/rust-lang/crates.io-index)",
  "wasm-bindgen-futures 0.4.9 (registry+https://github.com/rust-lang/crates.io-index)",
  "web-sys 0.3.36 (registry+https://github.com/rust-lang/crates.io-index)",
- "yew-macro 0.16.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "yew-macro 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "yew-macro"
-version = "0.16.1"
+version = "0.17.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "boolinator 2.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -657,7 +657,7 @@ dependencies = [
 
 [[package]]
 name = "yew-parcel"
-version = "0.3.0"
+version = "0.4.0"
 dependencies = [
  "cfg-if 0.1.10 (registry+https://github.com/rust-lang/crates.io-index)",
  "console_error_panic_hook 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -668,17 +668,17 @@ dependencies = [
  "wasm-bindgen 0.2.60 (registry+https://github.com/rust-lang/crates.io-index)",
  "web-sys 0.3.36 (registry+https://github.com/rust-lang/crates.io-index)",
  "wee_alloc 0.4.5 (registry+https://github.com/rust-lang/crates.io-index)",
- "yew 0.16.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "yew_prism 0.3.0",
+ "yew 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "yew_prism 0.4.0",
 ]
 
 [[package]]
 name = "yew_prism"
-version = "0.3.0"
+version = "0.4.0"
 dependencies = [
  "wasm-bindgen 0.2.60 (registry+https://github.com/rust-lang/crates.io-index)",
  "web-sys 0.3.36 (registry+https://github.com/rust-lang/crates.io-index)",
- "yew 0.16.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "yew 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [metadata]
@@ -760,5 +760,5 @@ dependencies = [
 "checksum winapi-i686-pc-windows-gnu 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6"
 "checksum winapi-x86_64-pc-windows-gnu 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 "checksum yaml-rust 0.4.3 (registry+https://github.com/rust-lang/crates.io-index)" = "65923dd1784f44da1d2c3dbbc5e822045628c590ba72123e1c73d3c230c4434d"
-"checksum yew 0.16.2 (registry+https://github.com/rust-lang/crates.io-index)" = "fc1e1b60b090bf29758c6c42da2d2d6d54aa97dc73e3ccd1cd99d664b4c754cf"
-"checksum yew-macro 0.16.1 (registry+https://github.com/rust-lang/crates.io-index)" = "f1d2fe46d7922ecd99af4e5b4eddcab58c70ec741e31de6e1b910d5873a3095f"
+"checksum yew 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)" = "169c1645dd76856029d1e97f4ae8ef9f8171a63d592c1ada50d25f9f4c25dc0d"
+"checksum yew-macro 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)" = "61a9a452e63b6222b28b426dafbc6b207192e0127cdb93324cc7407b8c7e1768"
