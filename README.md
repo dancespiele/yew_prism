@@ -72,8 +72,9 @@ impl Component for App {
 ## Run documentation page
 
 1. `git clone https://github.com/spielrs/yew_prism.git`
-2. `cd yew_prism`
-3. `npm start`
+3. `cd yew_prism`
+4. `npm install` 
+5. `npm start`
 
 ## License
 
